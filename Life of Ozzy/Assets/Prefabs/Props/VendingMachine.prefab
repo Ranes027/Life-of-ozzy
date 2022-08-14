@@ -174,7 +174,7 @@ MonoBehaviour:
   _bound:
     _sentences:
     - _valued: vending_hello
-      _name: 'Vending Machine '
+      _name: vending_name
       _icon: {fileID: 0}
       _side: 0
     _type: 0
