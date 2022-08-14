@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8a9826b8a838c42b1614dda5b7478e, type: 3}
+  m_Name: PlayerDefinition
+  m_EditorClassIdentifier: 
+  _inventorySize: 10
+  _maxHealth: 100
+  _stats:
+  - _id: 0
+    _name: stats_health
+    _icon: {fileID: 21300000, guid: d6fc1801ccf56804fab36cc4c6a1a65d, type: 3}
+    _levels:
+    - _value: 100
+      _price:
+        _itemId: Exp
+        _count: 0
+    - _value: 110
+      _price:
+        _itemId: Exp
+        _count: 20
+    - _value: 120
+      _price:
+        _itemId: Exp
+        _count: 30
+    - _value: 130
+      _price:
+        _itemId: Exp
+        _count: 40
+    - _value: 150
+      _price:
+        _itemId: Exp
+        _count: 50
+  - _id: 1
+    _name: stats_meleeDamage
+    _icon: {fileID: 21300000, guid: 5e171d993fa8c60439afc55e1d68324c, type: 3}
+    _levels:
+    - _value: 10
+      _price:
+        _itemId: Exp
+        _count: 0
+    - _value: 15
+      _price:
+        _itemId: Exp
+        _count: 30
+    - _value: 20
+      _price:
+        _itemId: Exp
+        _count: 40
+    - _value: 25
+      _price:
+        _itemId: Exp
+        _count: 50
+    - _value: 30
+      _price:
+        _itemId: Exp
+        _count: 60
+  - _id: 2
+    _name: stats_speed
+    _icon: {fileID: 21300000, guid: 4a50bf81e8abd064dbb317c54da5984e, type: 3}
+    _levels:
+    - _value: 4
+      _price:
+        _itemId: Exp
+        _count: 0
+    - _value: 4.25
+      _price:
+        _itemId: Exp
+        _count: 10
+    - _value: 4.5
+      _price:
+        _itemId: Exp
+        _count: 30
+    - _value: 5
+      _price:
+        _itemId: Exp
+        _count: 90
+    - _value: 5.5
+      _price:
+        _itemId: Exp
+        _count: 200

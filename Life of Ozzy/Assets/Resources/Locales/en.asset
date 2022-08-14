@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf6367d1403bb64e87151ca4a585f52, type: 3}
+  m_Name: en
+  m_EditorClassIdentifier: 
+  _url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQXNc-BZXDidbIZS6AylNRJsOfGqmQ8A1Y8BZxqM4Ci7gsy4bc9qPtheiLZ7WbqiyWPrvQNsNO0Wh8g/pub?gid=0&single=true&output=tsv
+  _localeItems:
+  - Key: button_newgame
+    Value: "NEW GAME\r"
+  - Key: button_loadgame
+    Value: "LOAD\r"
+  - Key: button_settings
+    Value: "SETTINGS\r"
+  - Key: button_exit
+    Value: "EXIT\r"
+  - Key: settings_header
+    Value: "SETTINGS\r"
+  - Key: settings_music
+    Value: "MUSIC\r"
+  - Key: settings_sfx
+    Value: "SFX\r"
+  - Key: settings_language
+    Value: "LANGUAGES\r"
+  - Key: language_header
+    Value: "Change Language\r"
+  - Key: yariGD_1
+    Value: "Sup, Kostik! Long time no see.\r"
+  - Key: yariGD_2
+    Value: "Hey, Yari! Glad to see you too.\r"
+  - Key: yariGD_3
+    Value: "Wanna check my new beat?\r"
+  - Key: yariGB_1
+    Value: "Bye! Come here when you want.\r"
+  - Key: yariBD_1
+    Value: "Ohh, I also have some cool stuff...\r"
+  - Key: yariBD_2
+    Value: "You can check it.\r"
+  - Key: button_next
+    Value: "NEXT...\r"
+  - Key: inGameMenu_header
+    Value: "MENU\r"
+  - Key: inGameMenu_reload
+    Value: "RELOAD LEVEL\r"
+  - Key: inGameMenu_load
+    Value: "LOAD CHECKPOINT\r"
+  - Key: inGameMenu_settings
+    Value: "SETTINGS\r"
+  - Key: inGameMenu_mainmenu
+    Value: "TO MAIN MENU\r"
+  - Key: inGameMenu_back
+    Value: "CONTINUE\r"
+  - Key: perksWindow_name1
+    Value: "Japanese soda\r"
+  - Key: perksWindow_info1
+    Value: "Ramune is one of the modern symbols of summer in Japan. [Increase jump
+      power by 20%]\r"
+  - Key: perksWindow_name2
+    Value: "Japanese Ice Tea\r"
+  - Key: perksWindow_info2
+    Value: "Beat the heat! With refreshing ice tea! [Doubles efficiency of Health
+      Potions]\r"
+  - Key: perksWindow_name3
+    Value: "Japanese Beer\r"
+  - Key: perksWindow_info3
+    Value: "The best drink you can buy. [Doubles efficiency of melee attack]\r"
+  - Key: perksWindow_price
+    Value: "Price:\r"
+  - Key: perksWindow_buy
+    Value: "BUY\r"
+  - Key: perksWindow_use
+    Value: "USE\r"
+  - Key: vending_name
+    Value: "Vending Machine\r"
+  - Key: vending_hello
+    Value: "Hello World! 2PizzaVending Machine wishes you a good day.\r"
+  - Key: stats_health
+    Value: "Health\r"
+  - Key: stats_meleeDamage
+    Value: "Melee Damage\r"
+  - Key: stats_speed
+    Value: "Speed\r"
+  - Key: statsMenu_upgrade
+    Value: "UPGRADE\r"
+  - Key: name_Kostik
+    Value: "Kostik\r"
+  - Key: name_Yari
+    Value: "Yari\r"
+  - Key: name_OldMan
+    Value: "Old Man\r"
+  - Key: OldManD_1
+    Value: "Hey, Boy! Could you give me some money for ticket?\r"
+  - Key: OldManV_Title
+    Value: "Give him money?\r"
+  - Key: OldManV_1
+    Value: "1. Yes\r"
+  - Key: OldManV_2
+    Value: "2. No\r"
+  - Key: OldManD_2_1
+    Value: " I appreciate your help!\r"
+  - Key: OldManD_2_2
+    Value: "I see you are going to the forest. It's getting dark, take flashlight.\r"
+  - Key: OldManD_2_3
+    Value: "And also use all your experience to keep safe.\r"
+  - Key: OldManD_3
+    Value: "Ohh..you're broke too.\r"
+  - Key: OldManD_4
+    Value: "Miser...\r"
+  - Key: ForestHouseV_Title
+    Value: "Enter the house?\r"
+  - Key: ForestHouseV_Hatch
+    Value: "You find suspicious hatch, open it?\r"
+  - Key: ForestHouseV_Leave
+    Value: "1. Okay\r"
+  - Key: ForestHouseV_Title2
+    Value: "Leave house?\r"
+  - Key: name_Lumberjack
+    Value: "Lumberjack\r"
+  - Key: LumberjackD_1
+    Value: "Who are you? Get out of here!\r"
+  - Key: BanditD_1
+    Value: "The passage is paid, give me your money\r"
+  - Key: BanditV_Title
+    Value: "Give the money?\r"
+  - Key: BanditV_2
+    Value: "2. Get out, fool\r"
+  - Key: BanditD_2
+    Value: "Great, you can go\r"
+  - Key: BanditD_3
+    Value: "Come back as soon as you find money\r"
+  - Key: name_Bandit
+    Value: Bandit

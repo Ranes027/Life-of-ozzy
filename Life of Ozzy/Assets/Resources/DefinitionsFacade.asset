@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d3bc96d5dc83b468aace56be30e43e, type: 3}
+  m_Name: DefinitionsFacade
+  m_EditorClassIdentifier: 
+  _items: {fileID: 11400000, guid: 99205c31447874f4eb1cfb9cf9d31f2b, type: 2}
+  _throwableItems: {fileID: 11400000, guid: 1878833f8fc5b094eac61fba7c28f08b, type: 2}
+  _potions: {fileID: 11400000, guid: d5ece9e2b18b9f348b6d0524f7abe850, type: 2}
+  _player: {fileID: 11400000, guid: fd364b62365b679408bd1cede84fa2be, type: 2}
+  _perks: {fileID: 11400000, guid: 84ec2608b99bf2f4c930dfe0e2a46850, type: 2}
+  _shop: {fileID: 11400000, guid: cacd370659675bf44840e1e78bb9cbbd, type: 2}

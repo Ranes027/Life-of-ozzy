@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: _shopWindow
+  m_Controller: {fileID: 9100000, guid: f36dd814ea4f5224fb7d5a6d904a9640, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 20b939e155b8f6c4a82771fb6ebd98d9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 52663a88231690a41af998973ba19531, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f1d982331d3cac41b7c1f6bd2cf4e0a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ccdd9bdc6f5e7ba4e99a93806c6ff466, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0f5f867970dd83948ac64adb9c922075, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c2a5fcc4d12d4e84f8924673882c21e3, type: 2}
