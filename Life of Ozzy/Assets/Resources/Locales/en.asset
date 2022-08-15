@@ -137,4 +137,14 @@ MonoBehaviour:
   - Key: BanditD_3
     Value: "Come back as soon as you find money\r"
   - Key: name_Bandit
-    Value: Bandit
+    Value: "Bandit\r"
+  - Key: name_Hekpo
+    Value: "Hekpo\r"
+  - Key: HekpoD_1_1
+    Value: "Where you been, Kostik?\r"
+  - Key: HekpoD_1_2
+    Value: "Get in the truck, we're going to sea.\r"
+  - Key: HekpoD_2
+    Value: "You check out vending machine?\r"
+  - Key: HekpoD_1_1K
+    Value: I had business in forest...
