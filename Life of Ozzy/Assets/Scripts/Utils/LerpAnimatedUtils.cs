@@ -1,0 +1,34 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace LifeOfOzzy.Utils
+{
+    public static class LerpAnimatedUtils
+    {
+        public static Coroutine LerpAnimated(this MonoBehaviour behaviour, float start, float end,
+            float time, Action<float> onFrame)
+        {
+            return behaviour.StartCoroutine(Animate(start, end, time, onFrame));
+        }
+
+        private static IEnumerator Animate(float start, float end, float animationTime, Action<float> onFrame)
+        {
+            var time = 0f;
+            onFrame(start);
+            while (time < animationTime)
+            {
+                time += Time.deltaTime;
+                var progress = time / animationTime;
+                var tmpAlpha = Mathf.Lerp(start, end, progress);
+                onFrame(tmpAlpha);
+
+                yield return null;
+            }
+
+            onFrame(end);
+        }
+
+    }
+}
