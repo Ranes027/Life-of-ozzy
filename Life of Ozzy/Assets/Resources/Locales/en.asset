@@ -147,4 +147,18 @@ MonoBehaviour:
   - Key: HekpoD_2
     Value: "You check out vending machine?\r"
   - Key: HekpoD_1_1K
-    Value: I had business in forest...
+    Value: "I had business in forest...\r"
+  - Key: name_Ranes
+    Value: "Ranes\r"
+  - Key: name_Yoshi
+    Value: "Yoshi\r"
+  - Key: GroupD_1_1
+    Value: "Hey guys! Let's swim away to find treasure!\r"
+  - Key: GroupD_1_2
+    Value: "Kostik...\r"
+  - Key: GroupD_1_3
+    Value: "...\r"
+  - Key: GroupD_1_4
+    Value: "I don't mind!\r"
+  - Key: GroupD_1_5
+    Value: Boat on the shore.

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ea536b68fcf774438e1c2efe012ccba
+guid: b8b7836d03427b14ba85a729084b1c54
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,55 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_0
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 36
-        width: 10
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a183195e3d95544aac175e51f25d70
-      internalID: 403142424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_1
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 75
-        width: 48
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bcc2fca7de4ea9439ca1a21626b1c02
-      internalID: 16706779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_2
+      name: Beer_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 32
-        height: 10
+        y: 0
+        width: 18
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51371b2e53c4f84ca8beae664ca441f
-      internalID: 136193910
+      spriteID: 0bc83a330359d2e43802e33b77b2344c
+      internalID: 304256656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_3
+      name: Beer_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 42
-        width: 46
-        height: 22
+        x: 26
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6c8c790f6e50547b22e37242eefeef
-      internalID: 854575107
+      spriteID: e6fc6254898891d4294d5ce1cf84f6ce
+      internalID: -1410713304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beer_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f521b0d36fd69fe43be1cfaa5fb10d7b
+      internalID: 237471711
       vertices: []
       indices: 
       edges: []
@@ -222,10 +201,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Front Palm Bottom and Grass (32x32)_1: 16706779
-      Front Palm Bottom and Grass (32x32)_3: 854575107
-      Front Palm Bottom and Grass (32x32)_0: 403142424
-      Front Palm Bottom and Grass (32x32)_2: 136193910
+      Beer_2: 237471711
+      Beer_1: -1410713304
+      Beer_0: 304256656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

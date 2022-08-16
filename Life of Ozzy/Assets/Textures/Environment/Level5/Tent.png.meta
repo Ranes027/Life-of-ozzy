@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ea536b68fcf774438e1c2efe012ccba
+guid: 42cb5b8cea1a6264d822e3d7e62c4ef6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,91 +126,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_0
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 36
-        width: 10
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a183195e3d95544aac175e51f25d70
-      internalID: 403142424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_1
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 75
-        width: 48
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bcc2fca7de4ea9439ca1a21626b1c02
-      internalID: 16706779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 11
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a51371b2e53c4f84ca8beae664ca441f
-      internalID: 136193910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_3
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 42
-        width: 46
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c6c8c790f6e50547b22e37242eefeef
-      internalID: 854575107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -221,11 +137,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Front Palm Bottom and Grass (32x32)_1: 16706779
-      Front Palm Bottom and Grass (32x32)_3: 854575107
-      Front Palm Bottom and Grass (32x32)_0: 403142424
-      Front Palm Bottom and Grass (32x32)_2: 136193910
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

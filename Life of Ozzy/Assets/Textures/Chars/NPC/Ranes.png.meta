@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ea536b68fcf774438e1c2efe012ccba
+guid: af3cca7565b4f9648b4d25da74da0163
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 28
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_0
+      name: Ranes_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 36
-        width: 10
-        height: 60
+        x: 6
+        y: 0
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8a183195e3d95544aac175e51f25d70
-      internalID: 403142424
+      spriteID: 12bf3b047f0c0524ea4f68bc8127a4ca
+      internalID: -1176839788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_1
+      name: Ranes_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 75
-        width: 48
-        height: 21
+        x: 54
+        y: 0
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bcc2fca7de4ea9439ca1a21626b1c02
-      internalID: 16706779
+      spriteID: e11c8ddf6953bb44e94076e0ca8d1a92
+      internalID: 1842094682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_2
+      name: Ranes_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 11
-        width: 32
-        height: 10
+        x: 101
+        y: 0
+        width: 17
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51371b2e53c4f84ca8beae664ca441f
-      internalID: 136193910
+      spriteID: 6f20cfd78bcf30f4eaef1a2b9a6efccd
+      internalID: 2072429193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front Palm Bottom and Grass (32x32)_3
+      name: Ranes_3
       rect:
         serializedVersion: 2
-        x: 37
-        y: 42
-        width: 46
-        height: 22
+        x: 149
+        y: 0
+        width: 17
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6c8c790f6e50547b22e37242eefeef
-      internalID: 854575107
+      spriteID: 76e0093c98191554fb8140de6491823e
+      internalID: 1985302135
       vertices: []
       indices: 
       edges: []
@@ -222,10 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Front Palm Bottom and Grass (32x32)_1: 16706779
-      Front Palm Bottom and Grass (32x32)_3: 854575107
-      Front Palm Bottom and Grass (32x32)_0: 403142424
-      Front Palm Bottom and Grass (32x32)_2: 136193910
+      Ranes_2: 2072429193
+      Ranes_0: -1176839788
+      Ranes_1: 1842094682
+      Ranes_3: 1985302135
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
