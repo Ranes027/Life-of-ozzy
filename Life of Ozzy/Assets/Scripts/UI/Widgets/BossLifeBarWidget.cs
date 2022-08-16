@@ -35,7 +35,7 @@ namespace LifeOfOzzy.UI
         }
 
         [ContextMenu("Show")]
-        private void ShowUI()
+        public void ShowUI()
         {
             this.LerpAnimated(0, 1, 1, SetAlpha);
         }
