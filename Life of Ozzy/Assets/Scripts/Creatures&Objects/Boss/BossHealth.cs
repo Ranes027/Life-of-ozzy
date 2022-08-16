@@ -13,7 +13,7 @@ public class BossHealth : MonoBehaviour
 
     private void Awake()
     {
-        _hp._onChange.Subscribe(OnHealthChange);
+        _trash.Retain(_hp._onChange.Subscribe(OnHealthChange));
         OnHealthChange(_hp.Health);
     }
 
