@@ -15,13 +15,16 @@ namespace LifeOfOzzy.Components
         [SerializeField] public UnityEvent _onDamage;
         [SerializeField] public UnityEvent _onDie;
         [SerializeField] public HealthChangeEvent _onChange;
+        private LockObjectUtils _immune = new LockObjectUtils();
 
         public int Health => _health;
+        public LockObjectUtils Immune => _immune;
 
         public void ChangeHealthPoints(int healthChange)
         {
+            if (healthChange < 0 && Immune.IsLocked) return;
             if (_health <= 0) return;
-            
+
             _health += healthChange;
             _onChange?.Invoke(_health);
 
