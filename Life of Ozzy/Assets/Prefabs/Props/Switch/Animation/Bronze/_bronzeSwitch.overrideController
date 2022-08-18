@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: _bronzeSwitch
+  m_Controller: {fileID: 9100000, guid: 5ab29ba314d554e4c828196f133219f0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c7bc58abc1e6e7f4e9bb42bb86767f43, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7162127625e758c4589e3a27f3a99a1f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 350639cdb63db434490934c98a708b8e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f5660cdb6c3695244bfb9d94fbd12d1c, type: 2}
