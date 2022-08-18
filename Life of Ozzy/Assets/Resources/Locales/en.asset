@@ -161,4 +161,8 @@ MonoBehaviour:
   - Key: GroupD_1_4
     Value: "I don't mind!\r"
   - Key: GroupD_1_5
-    Value: Boat on the shore.
+    Value: "Boat on the shore.\r"
+  - Key: name_keyhole
+    Value: "Keyhole\r"
+  - Key: keyholeV_1
+    Value: Require a key.

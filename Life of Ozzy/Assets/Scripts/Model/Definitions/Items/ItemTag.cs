@@ -10,7 +10,6 @@ namespace LifeOfOzzy.Model
         Usable,
         Throwable,
         Potion,
-        Money,
         Unique
     }
 
