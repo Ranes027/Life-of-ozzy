@@ -9,7 +9,7 @@ using LifeOfOzzy.Utils;
 
 namespace LifeOfOzzy.UI
 {
-    public class ManageShopWindow : AnimatedWindow
+    public class ShopWindow : AnimatedWindow
     {
         [SerializeField] private Transform _itemsContainer;
         [SerializeField] private ShopWidget _prefab;
@@ -22,7 +22,7 @@ namespace LifeOfOzzy.UI
         [SerializeField] private int _minItemsCount;
         [SerializeField] private int _startIndex;
 
-        private LimitedDataGroup<ShopDefinition, ShopWidget> _dataGroup;
+        private PredefinedDataGroup<ShopDefinition, ShopWidget> _dataGroup;
 
         private GameSession _session;
         private readonly CompositeDisposable _trash = new CompositeDisposable();
@@ -31,21 +31,19 @@ namespace LifeOfOzzy.UI
         {
             base.Start();
 
-            _dataGroup = new LimitedDataGroup<ShopDefinition, ShopWidget>(_prefab, _itemsContainer);
+            _dataGroup = new PredefinedDataGroup<ShopDefinition, ShopWidget>(_itemsContainer);
 
-            _session = FindObjectOfType<GameSession>();
-            _session.ShopModel.InterfaceSelectedItem.Value = DefinitionsFacade.I.Shop.All[0].Id;
+            _session = FindObjectOfType<GameSession>();            
 
             _trash.Retain(_session.ShopModel.Subscribe(OnShopChanged));
-            _trash.Retain(_session.ShopModel.Subscribe(OnBuy));
+            _trash.Retain(_buyButton.onClick.Subscribe(OnBuy));
 
             OnShopChanged();
         }
 
         private void OnShopChanged()
-        {
-            var items = DefinitionsFacade.I.Shop.All;
-            _dataGroup.SetLimitedData(items, _minItemsCount, _startIndex);
+        {            
+            _dataGroup.SetData(DefinitionsFacade.I.Shop.All);
 
             var selected = _session.ShopModel.InterfaceSelectedItem.Value;
 

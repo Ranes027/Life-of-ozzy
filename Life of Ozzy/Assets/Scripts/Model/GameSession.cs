@@ -16,6 +16,7 @@ namespace LifeOfOzzy.Model
         private PlayerData _save;
 
         private readonly CompositeDisposable _trash = new CompositeDisposable();
+        
         public QuickInventoryData QuickInventory { get; private set; }
         public PerksModel PerksModel { get; private set; }
         public StatsModel StatsModel { get; private set; }
@@ -73,6 +74,9 @@ namespace LifeOfOzzy.Model
 
             StatsModel = new StatsModel(_data);
             _trash.Retain(StatsModel);
+
+            ShopModel = new ShopModel(_data);
+            _trash.Retain(ShopModel);
 
             _data.Hp.Value = (int)StatsModel.GetValue(StatId.Hp);
         }

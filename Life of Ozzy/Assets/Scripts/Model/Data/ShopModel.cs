@@ -1,24 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using System;
-using UnityEngine;
 using LifeOfOzzy.Utils;
-
 
 namespace LifeOfOzzy.Model
 {
     public class ShopModel : IDisposable
     {
         private readonly PlayerData _data;
-        public readonly StringObservableProperty InterfaceSelectedItem = new StringObservableProperty();
 
         public event Action OnChanged;
+
+        public readonly StringObservableProperty InterfaceSelectedItem = new StringObservableProperty();
 
         private readonly CompositeDisposable _trash = new CompositeDisposable();
 
         public ShopModel(PlayerData data)
         {
             _data = data;
+            InterfaceSelectedItem.Value = DefinitionsFacade.I.Shop.All[0].Id;
+
             _trash.Retain(InterfaceSelectedItem.Subscribe((x, y) => OnChanged?.Invoke()));
         }
 
@@ -46,8 +45,6 @@ namespace LifeOfOzzy.Model
             var def = DefinitionsFacade.I.Shop.Get(id);
             return _data.Inventory.IsEnough(def.Price);
         }
-
-        
 
         public void Dispose()
         {

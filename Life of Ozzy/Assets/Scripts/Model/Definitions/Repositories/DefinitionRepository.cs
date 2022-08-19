@@ -22,7 +22,6 @@ namespace LifeOfOzzy.Model
         }
 
         public TDefType[] All => new List<TDefType>(_collection).ToArray();
-        public TDefType[] Range => new List<TDefType>().ToArray();
     }
 
 }

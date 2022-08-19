@@ -6,7 +6,7 @@ using LifeOfOzzy.Utils;
 
 namespace LifeOfOzzy.UI
 {
-    public class ManagePerksWindow : AnimatedWindow
+    public class PerksWindow : AnimatedWindow
     {
         [SerializeField] private Button _buyButton;
         [SerializeField] private Button _useButton;

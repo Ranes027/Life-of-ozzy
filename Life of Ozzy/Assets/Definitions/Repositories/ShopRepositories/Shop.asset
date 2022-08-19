@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collection:
   - _id: HealthPotion
-    _icon: {fileID: 0}
+    _icon: {fileID: 234857336, guid: 2d138eff9e03d3f4496715a4d2adb645, type: 3}
     _name: Health
     _info: Potions?
     _amount: 3
@@ -22,7 +22,7 @@ MonoBehaviour:
       _itemId: Coin
       _count: 25
   - _id: Sword
-    _icon: {fileID: 0}
+    _icon: {fileID: 21300000, guid: 5e171d993fa8c60439afc55e1d68324c, type: 3}
     _name: Sword
     _info: Sword
     _amount: 2
@@ -30,7 +30,7 @@ MonoBehaviour:
       _itemId: Coin
       _count: 30
   - _id: Pearl
-    _icon: {fileID: 0}
+    _icon: {fileID: 21300000, guid: f18ff7c400beb144b8cb01d98201ea09, type: 3}
     _name: Pearl
     _info: Real
     _amount: 10

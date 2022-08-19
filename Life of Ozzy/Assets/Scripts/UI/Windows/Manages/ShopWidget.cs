@@ -33,7 +33,8 @@ namespace LifeOfOzzy.UI
         {
             _icon.sprite = _data.Icon;
             _isSelected.SetActive(_session.ShopModel.InterfaceSelectedItem.Value == _data.Id);
-            _isOutOfStock.SetActive(DefinitionsFacade.I.Shop.Get(_data.Id).Amount > 0);
+            _isOutOfStock.SetActive(DefinitionsFacade.I.Shop.Get(_data.Id).Amount <= 0);
+            _amount.text = _data.Amount.ToString();
             
         }
 
