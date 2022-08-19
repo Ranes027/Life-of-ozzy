@@ -966,7 +966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _inventory:
-      _inventory: []
+      _inventory:
+      - Id: Coin
+        Value: 100
     Hp:
       _value: 100
     Perks:
@@ -989,6 +991,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &992584565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 302572098526802749, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+  m_PrefabInstance: {fileID: 5033606373219891522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &992584569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992584565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6a185b8bf65d0489b10a011395c7c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectToDestroy: {fileID: 992584565}
 --- !u!4 &994069589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8600734884126980001, guid: dd8a387d8a0f5a249b1fb8475e0cf491, type: 3}
@@ -5314,6 +5334,38 @@ PrefabInstance:
     - target: {fileID: 5033606372422159297, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 992584569}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DestroyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: LifeOfOzzy.Components.DestroyObjectComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033606372422159303, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
+      propertyPath: _onComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a5204930e53c24da0cb7b7b3d7d111, type: 3}
