@@ -165,4 +165,16 @@ MonoBehaviour:
   - Key: name_keyhole
     Value: "Keyhole\r"
   - Key: keyholeV_1
-    Value: Require a key.
+    Value: "Require a key.\r"
+  - Key: shopN_1
+    Value: "Health Potion\r"
+  - Key: shopI_1
+    Value: "Restore 25 health points.\r"
+  - Key: shopN_2
+    Value: "Simple sword\r"
+  - Key: shopI_2
+    Value: "Deal 10 damage. Throwable, deal 20 damage.\r"
+  - Key: shopN_3
+    Value: "Pearl\r"
+  - Key: shopI_3
+    Value: Throwable, deal 10 damage.
