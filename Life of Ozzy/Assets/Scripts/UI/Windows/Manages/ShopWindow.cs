@@ -22,7 +22,7 @@ namespace LifeOfOzzy.UI
         [SerializeField] private int _minItemsCount;
         [SerializeField] private int _startIndex;
 
-        private PredefinedDataGroup<ShopDefinition, ShopWidget> _dataGroup;
+        private LimitedDataGroup<ShopDefinition, ShopWidget> _dataGroup;
 
         private GameSession _session;
         private readonly CompositeDisposable _trash = new CompositeDisposable();
@@ -31,9 +31,9 @@ namespace LifeOfOzzy.UI
         {
             base.Start();
 
-            _dataGroup = new PredefinedDataGroup<ShopDefinition, ShopWidget>(_itemsContainer);
+            _dataGroup = new LimitedDataGroup<ShopDefinition, ShopWidget>(_prefab, _itemsContainer);
 
-            _session = FindObjectOfType<GameSession>();            
+            _session = FindObjectOfType<GameSession>();
 
             _trash.Retain(_session.ShopModel.Subscribe(OnShopChanged));
             _trash.Retain(_buyButton.onClick.Subscribe(OnBuy));
@@ -42,8 +42,8 @@ namespace LifeOfOzzy.UI
         }
 
         private void OnShopChanged()
-        {            
-            _dataGroup.SetData(DefinitionsFacade.I.Shop.All);
+        {
+            _dataGroup.SetLimitedData(DefinitionsFacade.I.Shop.All, _minItemsCount, _startIndex);
 
             var selected = _session.ShopModel.InterfaceSelectedItem.Value;
 

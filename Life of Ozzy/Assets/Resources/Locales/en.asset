@@ -177,4 +177,8 @@ MonoBehaviour:
   - Key: shopN_3
     Value: "Pearl\r"
   - Key: shopI_3
-    Value: Throwable, deal 10 damage.
+    Value: "Throwable, deal 10 damage.\r"
+  - Key: shopN_4
+    Value: "Weird Key\r"
+  - Key: shopI_4
+    Value: What is it needed for...

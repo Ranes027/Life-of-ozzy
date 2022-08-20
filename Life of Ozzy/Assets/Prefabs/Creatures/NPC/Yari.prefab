@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3720097177812519234}
   - component: {fileID: 3720097177812519235}
   - component: {fileID: 3720097177812519233}
+  - component: {fileID: 1682555296}
   m_Layer: 7
   m_Name: Yari
   m_TagString: Interactable
@@ -30,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3720097177812519290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.411899, y: -0.6513767, z: -0.13388391}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -292,7 +293,32 @@ MonoBehaviour:
   _external: {fileID: 0}
   _onComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1682555296}
+        m_TargetAssemblyTypeName: LifeOfOzzy.Components.ShowWindowComponent, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1682555296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3720097177812519290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3763eeef5d22f6428776052a810ba8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _windowPath: UI/ShopWindows/ShopWindowLevel2
 --- !u!1001 &3720097176308656194
 PrefabInstance:
   m_ObjectHideFlags: 0
