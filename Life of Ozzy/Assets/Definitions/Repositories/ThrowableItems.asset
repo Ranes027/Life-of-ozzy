@@ -17,3 +17,5 @@ MonoBehaviour:
     _projectile: {fileID: 7981672069130675879, guid: 480809744749b9b4196d32735d3ed9da, type: 3}
   - _id: Pearl
     _projectile: {fileID: 5512622413023246513, guid: 3cd5781592e6acc45b44309fea848608, type: 3}
+  - _id: Shuriken
+    _projectile: {fileID: 5512622413023246513, guid: 3762c860dff28b444a22af46e83ec7bc, type: 3}
