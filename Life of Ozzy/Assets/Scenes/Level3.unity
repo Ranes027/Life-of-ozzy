@@ -4598,6 +4598,8 @@ MonoBehaviour:
       _unlocked: []
     Stats:
       _progress: []
+    Shops:
+      _counts: []
   _defaultCheckpoint: level3_checkpoint1
 --- !u!4 &510929575
 Transform:

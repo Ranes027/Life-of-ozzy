@@ -4039,7 +4039,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.8125
+  orthographic size: 3.6875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9941,15 +9941,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _inventory:
-      _inventory:
-      - Id: Sword
-        Value: 2
+      _inventory: []
     Hp:
       _value: 100
     Perks:
       _unlocked: []
     Stats:
       _progress: []
+    Shops:
+      _counts: []
   _defaultCheckpoint: level1_checkpoint1
 --- !u!4 &1103552593
 Transform:
