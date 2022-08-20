@@ -33,6 +33,7 @@ namespace LifeOfOzzy
         [SerializeField] private ParticleSystem _healParticles;
         [SerializeField] private ParticleSystem _lostCoinParticles;
         [SerializeField] private SpawnComponent _throwSpawner;
+        [SerializeField] private HeroShield _shield;
 
         private bool _onLadder;
         private bool _allowDoubleJump;
@@ -175,6 +176,24 @@ namespace LifeOfOzzy
             _session.QuickInventory.SetNextItem();
         }
 
+        private bool IsSelectedItem(ItemTag tag)
+        {
+            return _session.QuickInventory.SelectedDef.HasTag(tag);
+        }
+
+        public void UseInventory()
+        {
+            if(IsSelectedItem(ItemTag.Throwable))
+                Throw();
+            else if(IsSelectedItem(ItemTag.Usable))
+                UseShield();
+        }
+
+        private void UseShield()
+        {
+            _shield.Use();            
+        }
+
         public override void TakeDamage()
         {
             base.TakeDamage();
@@ -240,7 +259,7 @@ namespace LifeOfOzzy
         {
             Animator.runtimeAnimatorController = SwordCount > 0 ? _armed : _disarmed;
         }
-
+        
         public void OnDoThrow()
         {
             var throwableId = _session.QuickInventory.SelectedItem.Id;

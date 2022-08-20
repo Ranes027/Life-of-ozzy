@@ -39,7 +39,7 @@ namespace LifeOfOzzy
         {
             if (context.performed)
             {
-                _hero.Throw();
+                _hero.UseInventory();
             }
         }
 
