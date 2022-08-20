@@ -16,8 +16,14 @@ MonoBehaviour:
   - _id: Coin
     _icon: {fileID: 21300000, guid: e3d5a4e8d0d1cdd4890dbfc8c6cf51ca, type: 3}
     _tags: 00000000
+  - _id: Exp
+    _icon: {fileID: 21300000, guid: 3444092e6c145574cbdaf3ffed359fea, type: 3}
+    _tags: 00000000
   - _id: Sword
     _icon: {fileID: 21300000, guid: 5e171d993fa8c60439afc55e1d68324c, type: 3}
+    _tags: 000000000100000002000000
+  - _id: Shuriken
+    _icon: {fileID: -1205952873, guid: d174d2f6f597f8b44af9954320d2633e, type: 3}
     _tags: 000000000100000002000000
   - _id: Pearl
     _icon: {fileID: 21300000, guid: f18ff7c400beb144b8cb01d98201ea09, type: 3}
@@ -28,15 +34,12 @@ MonoBehaviour:
   - _id: SpeedPotion
     _icon: {fileID: 234857336, guid: 2d138eff9e03d3f4496715a4d2adb645, type: 3}
     _tags: 0000000003000000
-  - _id: Exp
-    _icon: {fileID: 21300000, guid: 3444092e6c145574cbdaf3ffed359fea, type: 3}
-    _tags: 00000000
   - _id: Flashlight
     _icon: {fileID: 21300000, guid: 47dd8d0e7a12ed54880fb6d5f242388a, type: 3}
     _tags: 04000000
   - _id: Key
     _icon: {fileID: 21300000, guid: 88556df7fb036b84f8700648ad1a0e2f, type: 3}
     _tags: 04000000
-  - _id: Shuriken
-    _icon: {fileID: -1205952873, guid: d174d2f6f597f8b44af9954320d2633e, type: 3}
-    _tags: 000000000100000002000000
+  - _id: Shield
+    _icon: {fileID: 21300000, guid: d0709d11a37860949aae4dd11ac536c2, type: 3}
+    _tags: 0000000001000000

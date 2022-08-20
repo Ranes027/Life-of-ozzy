@@ -37,11 +37,27 @@ MonoBehaviour:
     _price:
       _itemId: Coin
       _count: 100
+  - _id: Shield
+    _icon: {fileID: 21300000, guid: d0709d11a37860949aae4dd11ac536c2, type: 3}
+    _name: shopN_5
+    _info: shopI_5
+    _amount: 2
+    _price:
+      _itemId: Coin
+      _count: 50
+  - _id: Shuriken
+    _icon: {fileID: -1205952873, guid: d174d2f6f597f8b44af9954320d2633e, type: 3}
+    _name: shopN_6
+    _info: shopI_6
+    _amount: 20
+    _price:
+      _itemId: Coin
+      _count: 15
   - _id: Pearl
     _icon: {fileID: 21300000, guid: f18ff7c400beb144b8cb01d98201ea09, type: 3}
     _name: shopN_3
     _info: shopI_3
-    _amount: 10
+    _amount: 5
     _price:
       _itemId: Coin
       _count: 5

@@ -6,7 +6,6 @@ namespace LifeOfOzzy.Model
     public class ShopModel : IDisposable
     {
         private readonly PlayerData _data;
-        private ShopDefinition _shopData;
 
         public event Action OnChanged;
 

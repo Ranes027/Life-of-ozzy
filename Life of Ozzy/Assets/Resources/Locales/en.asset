@@ -181,4 +181,16 @@ MonoBehaviour:
   - Key: shopN_4
     Value: "Weird Key\r"
   - Key: shopI_4
-    Value: What is it needed for...
+    Value: "What is it needed for...\r"
+  - Key: shopN_5
+    Value: "Energy shield\r"
+  - Key: shopI_5
+    Value: "Block all damage for 3 seconds (consumable).\r"
+  - Key: shopN_6
+    Value: "Shuriken\r"
+  - Key: shopI_6
+    Value: "Throwable, deal 20 damage.\r"
+  - Key: shopL3_name
+    Value: "Merchant\r"
+  - Key: shopL3_D
+    Value: Come, choose, buy. Bro.
