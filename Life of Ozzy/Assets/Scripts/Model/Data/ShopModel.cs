@@ -6,6 +6,7 @@ namespace LifeOfOzzy.Model
     public class ShopModel : IDisposable
     {
         private readonly PlayerData _data;
+        private ShopDefinition _shopData;
 
         public event Action OnChanged;
 
@@ -32,8 +33,12 @@ namespace LifeOfOzzy.Model
             var def = DefinitionsFacade.I.Shop.Get(id);
             var isEnoughResources = _data.Inventory.IsEnough(def.Price);
 
+            var currentAmount = GetCurrentAmount(id);
+            if(currentAmount <= 0) return;
+
             if (isEnoughResources)
             {
+                _data.Shops.DecreaseAmount(id);          
                 _data.Inventory.Remove(def.Price.ItemId, def.Price.Count);
                 _data.Inventory.Add(def.Id, 1);
             }
@@ -44,7 +49,9 @@ namespace LifeOfOzzy.Model
         {
             var def = DefinitionsFacade.I.Shop.Get(id);
             return _data.Inventory.IsEnough(def.Price);
-        }
+        }        
+
+        public int GetCurrentAmount(string id) => _data.Shops.GetAmount(id);
 
         public void Dispose()
         {

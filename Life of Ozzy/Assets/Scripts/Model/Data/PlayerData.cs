@@ -13,6 +13,7 @@ namespace LifeOfOzzy.Model
         public IntObservableProperty Hp = new IntObservableProperty();
         public PerksData Perks = new PerksData();
         public StatsData Stats = new StatsData();
+        public ShopData Shops = new ShopData();
 
 
         public InventoryData Inventory => _inventory;

@@ -15,7 +15,8 @@ namespace LifeOfOzzy.Model
 
         public void AddPerk(string id)
         {
-            if (!_unlocked.Contains(id)) _unlocked.Add(id);
+            if (!_unlocked.Contains(id))
+                _unlocked.Add(id);
         }
 
         public bool IsUnlocked(string id)
