@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +9,7 @@ namespace LifeOfOzzy.Utils
 
         private static Pool _instance;
 
-        public static Pool instance
+        public static Pool Instance
         {
             get
             {

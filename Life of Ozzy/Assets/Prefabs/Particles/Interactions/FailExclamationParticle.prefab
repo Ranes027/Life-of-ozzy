@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7382273169616325168}
   - component: {fileID: 9200268863154237253}
-  - component: {fileID: 5528796290717632515}
-  - component: {fileID: 6802854040921280913}
+  - component: {fileID: 6522398481982876319}
+  - component: {fileID: 5591829891416856742}
   m_Layer: 0
   m_Name: FailExclamationParticle
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1030783887
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4ee665afe010c5d4386d2fe3d1d4ec30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5528796290717632515
+--- !u!114 &6522398481982876319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,38 +95,78 @@ MonoBehaviour:
   m_GameObject: {fileID: 7981672069130675879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc15d0b268377243a671a0ea27e43e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 55cfc83c6be94414a93ebeb59fb0d16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frameRate: 5
-  _loop: 0
-  _sprites:
-  - {fileID: 21300000, guid: 4ee665afe010c5d4386d2fe3d1d4ec30, type: 3}
+  _frameRate: 1
   _onComplete:
     m_PersistentCalls:
+      m_Calls: []
+  _clips:
+  - _name: idle
+    _sprites:
+    - {fileID: 21300000, guid: 4ee665afe010c5d4386d2fe3d1d4ec30, type: 3}
+    _loop: 0
+    _allowNextClip: 0
+    _onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5591829891416856742}
+          m_TargetAssemblyTypeName: LifeOfOzzy.Utils.PoolItem, Assembly-CSharp
+          m_MethodName: Release
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - _name: idle1
+    _sprites:
+    - {fileID: 21300000, guid: 4ee665afe010c5d4386d2fe3d1d4ec30, type: 3}
+    _loop: 0
+    _allowNextClip: 0
+    _onComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5591829891416856742}
+          m_TargetAssemblyTypeName: LifeOfOzzy.Utils.PoolItem, Assembly-CSharp
+          m_MethodName: Release
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &5591829891416856742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981672069130675879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c54af213139f8a4e80667fa345c046e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onRestart:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6802854040921280913}
-        m_TargetAssemblyTypeName: LifeOfOzzy.Components.DestroyObjectComponent, Assembly-CSharp
-        m_MethodName: DestroyObject
-        m_Mode: 1
+      - m_Target: {fileID: 6522398481982876319}
+        m_TargetAssemblyTypeName: LifeOfOzzy.SpriteAnimationModify, Assembly-CSharp
+        m_MethodName: SetClip
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: idle1
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6802854040921280913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7981672069130675879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f6a185b8bf65d0489b10a011395c7c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objectToDestroy: {fileID: 7981672069130675879}

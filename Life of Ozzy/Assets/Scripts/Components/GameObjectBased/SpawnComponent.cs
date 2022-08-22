@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using LifeOfOzzy.Utils;
 
@@ -22,7 +20,7 @@ namespace LifeOfOzzy.Components
             var targetPosition = _target.position;
 
             var instance = _usePool
-                ? Pool.instance.Get(_prefab, targetPosition)
+                ? Pool.Instance.Get(_prefab, targetPosition)
                 : SpawnUtils.Spawn(_prefab, targetPosition);
 
             var scale = _target.lossyScale;

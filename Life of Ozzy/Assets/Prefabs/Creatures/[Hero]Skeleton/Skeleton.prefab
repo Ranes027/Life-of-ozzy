@@ -10780,7 +10780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 2294638815949303147}
   _prefab: {fileID: 7981672069130675879, guid: 50aa76ca6f4c96a49a1d13489fcbfeef, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &3325200153061582858
 GameObject:
   m_ObjectHideFlags: 0
@@ -10827,7 +10827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 4083217795532086270}
   _prefab: {fileID: 7981672069130675879, guid: 77dc74a00c00861478c1220566967596, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &3937999929402816675
 GameObject:
   m_ObjectHideFlags: 0

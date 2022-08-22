@@ -5452,9 +5452,9 @@ MonoBehaviour:
   - Id: Land
     Component: {fileID: 486831111714878907}
   - Id: Exclamation
-    Component: {fileID: 4250900702862790559}
+    Component: {fileID: 2132401732}
   - Id: Fail
-    Component: {fileID: 319596476910179943}
+    Component: {fileID: 977878278}
 --- !u!114 &8257020385589435191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5535,7 +5535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 2294638815949303147}
   _prefab: {fileID: 7981672069130675879, guid: a10145b02bad3704d9f08db5edf6b408, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &3325200153061582858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 4083217795532086270}
   _prefab: {fileID: 7981672069130675879, guid: 77dc74a00c00861478c1220566967596, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &3392870444453850153
 GameObject:
   m_ObjectHideFlags: 0
@@ -5683,7 +5683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4727550787409632834}
-  - component: {fileID: 319596476910179943}
+  - component: {fileID: 977878278}
   m_Layer: 10
   m_Name: FailExclamationParticlePosition
   m_TagString: Untagged
@@ -5706,7 +5706,7 @@ Transform:
   m_Father: {fileID: 2091549030353399572}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &319596476910179943
+--- !u!114 &977878278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5720,7 +5720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 4727550787409632834}
   _prefab: {fileID: 7981672069130675879, guid: c3742bad648c36e418353f0e9a62f0e3, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &4068779704380837781
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,7 +5811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4280980780116879045}
-  - component: {fileID: 4250900702862790559}
+  - component: {fileID: 2132401732}
   m_Layer: 10
   m_Name: ExclamationParticlePosition
   m_TagString: Untagged
@@ -5834,7 +5834,7 @@ Transform:
   m_Father: {fileID: 2091549030353399572}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4250900702862790559
+--- !u!114 &2132401732
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5848,7 +5848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 4280980780116879045}
   _prefab: {fileID: 7981672069130675879, guid: 5578a71ffb9c89f45bb46d18e56b9e8b, type: 3}
-  _usePool: 0
+  _usePool: 1
 --- !u!1 &4906881648801275530
 GameObject:
   m_ObjectHideFlags: 0
