@@ -193,4 +193,14 @@ MonoBehaviour:
   - Key: shopL3_name
     Value: "Merchant\r"
   - Key: shopL3_D
-    Value: Come, choose, buy. Bro.
+    Value: "Come, choose, buy. Bro.\r"
+  - Key: name_Berlin
+    Value: "Berlin\r"
+  - Key: BerlinD_1
+    Value: "Mom prepares lunch for her son for school: - Here, I put bread, sausage
+      and nails in your backpack. -Mom, but why?\r"
+  - Key: BerlinD_2
+    Value: "- That is, how is it, why? If you get hungry - take sausage, bread, make
+      yourself a sandwich and eat.\r"
+  - Key: BerlinD_3
+    Value: -Mom, what about nails? - So here they are!
