@@ -106,8 +106,7 @@ namespace LifeOfOzzy
         protected virtual float CalculateJumpVelocity(float yVelocity)
         {
             if (IsGrounded)
-            {   
-                
+            {                   
                 yVelocity = _jumpPower;
                 _particles.Spawn("Jump");
             }

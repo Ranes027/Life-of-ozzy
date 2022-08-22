@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5924036063856750858}
   - component: {fileID: 5924036063856750861}
-  - component: {fileID: 5924036063856750860}
+  - component: {fileID: 4076842485821479405}
   m_Layer: 0
   m_Name: AnimatedTree
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5924036063856750860
+--- !u!114 &4076842485821479405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,16 +94,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5924036063856750863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc15d0b268377243a671a0ea27e43e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 55cfc83c6be94414a93ebeb59fb0d16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _frameRate: 2
-  _loop: 1
-  _sprites:
-  - {fileID: 21300000, guid: 617861464058dec4ca29c139d0b21539, type: 3}
-  - {fileID: 21300000, guid: 17f9132cf8e5e4c4196dd712b50bcb50, type: 3}
-  - {fileID: 21300000, guid: 4a3dc3d06849d8947ba0324537e9e843, type: 3}
-  - {fileID: 21300000, guid: cd9b774ea7e255d43a97252a85280025, type: 3}
-  _onComplete:
-    m_PersistentCalls:
-      m_Calls: []
+  _clips:
+  - _name: idle
+    _sprites:
+    - {fileID: 21300000, guid: 617861464058dec4ca29c139d0b21539, type: 3}
+    - {fileID: 21300000, guid: 17f9132cf8e5e4c4196dd712b50bcb50, type: 3}
+    - {fileID: 21300000, guid: 4a3dc3d06849d8947ba0324537e9e843, type: 3}
+    - {fileID: 21300000, guid: cd9b774ea7e255d43a97252a85280025, type: 3}
+    _loop: 1
+    _allowNextClip: 0
+    _onComplete:
+      m_PersistentCalls:
+        m_Calls: []

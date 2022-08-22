@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace LifeOfOzzy.Utils
@@ -19,5 +17,4 @@ namespace LifeOfOzzy.Utils
             return Object.Instantiate(prefab, position, Quaternion.identity, container.transform);
         }
     }
-
 }

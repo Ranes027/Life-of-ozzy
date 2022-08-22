@@ -5,11 +5,10 @@ using UnityEngine.Events;
 namespace LifeOfOzzy
 {
     [RequireComponent(typeof(SpriteRenderer))]
-
     public class SpriteAnimationModify : MonoBehaviour
     {
         [SerializeField][Range(1, 30)] private int _frameRate = 10;
-        private UnityEvent<string> _onComplete;
+        [SerializeField] private UnityEvent<string> _onComplete;
         [SerializeField] private AnimationClip[] _clips;
 
         private SpriteRenderer _renderer;
@@ -80,7 +79,7 @@ namespace LifeOfOzzy
                 {
                     enabled = _isPlaying = clip.AllowNextClip;
                     clip.OnComplete?.Invoke();
-                    _onComplete?.Invoke(clip.Name);                    
+                    _onComplete?.Invoke(clip.Name);
 
                     if (clip.AllowNextClip)
                     {

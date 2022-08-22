@@ -120,10 +120,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3419858608474616193}
   - component: {fileID: 3419858608474616192}
-  - component: {fileID: 3419858608474616195}
   - component: {fileID: 8677143899632033642}
   - component: {fileID: 2355317777643594923}
   - component: {fileID: 1049507141037879064}
+  - component: {fileID: 6313431197514352234}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -199,28 +199,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3419858608474616195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3419858608474616194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc15d0b268377243a671a0ea27e43e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _frameRate: 4
-  _loop: 1
-  _sprites:
-  - {fileID: 349283775, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
-  - {fileID: 180779323, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
-  - {fileID: 1491407039, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
-  - {fileID: -1908996956, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
-  _onComplete:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!70 &8677143899632033642
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -281,3 +259,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _destinationTransform: {fileID: 0}
+--- !u!114 &6313431197514352234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419858608474616194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cfc83c6be94414a93ebeb59fb0d16f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 4
+  _clips:
+  - _name: idle
+    _sprites:
+    - {fileID: 349283775, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
+    - {fileID: 180779323, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
+    - {fileID: 1491407039, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
+    - {fileID: -1908996956, guid: de35c54f77eec8a4fbf21c41d99be07a, type: 3}
+    _loop: 1
+    _allowNextClip: 0
+    _onComplete:
+      m_PersistentCalls:
+        m_Calls: []
