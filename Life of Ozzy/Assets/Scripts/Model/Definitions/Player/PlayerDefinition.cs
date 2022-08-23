@@ -17,7 +17,16 @@ namespace LifeOfOzzy.Model
 
         public StatDefinition[] Stats => _stats;
 
-        public StatDefinition GetStat(StatId id) => _stats.FirstOrDefault(x => x.Id == id);
+        public StatDefinition GetStat(StatId id)
+        {
+            foreach (var statDef in _stats)
+            {
+                if (statDef.Id == id)
+                    return statDef;
+            }
+            
+            return default;
+        }
     }
 
 }

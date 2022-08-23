@@ -13,10 +13,13 @@ namespace LifeOfOzzy.Model
 
         public int GetLevel(StatId id)
         {
-            var progress = _progress.FirstOrDefault(x => x.Id == id);
-            if (progress == null)
-                return 0;
-            return progress.Level;
+            foreach (var levelProgress in _progress)
+            {
+                if(levelProgress.Id == id)
+                    return levelProgress.Level;
+            }
+
+            return 0;
         }
 
         public void LevelUp(StatId id)
