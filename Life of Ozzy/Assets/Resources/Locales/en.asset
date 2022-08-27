@@ -203,4 +203,14 @@ MonoBehaviour:
     Value: "- That is, how is it, why? If you get hungry - take sausage, bread, make
       yourself a sandwich and eat.\r"
   - Key: BerlinD_3
-    Value: -Mom, what about nails? - So here they are!
+    Value: "-Mom, what about nails? - So here they are!\r"
+  - Key: Board_L6_name
+    Value: "Board with notes\r"
+  - Key: Board_L6_text
+    Value: "Password: 1 0 1\r"
+  - Key: Phone_L6_name
+    Value: "Telephone booth\r"
+  - Key: Phone_L6_text
+    Value: "Not enough money...\r"
+  - Key: Phone_L6_V
+    Value: Call up vending machine for 30 coins?
