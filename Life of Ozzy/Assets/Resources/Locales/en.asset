@@ -213,4 +213,22 @@ MonoBehaviour:
   - Key: Phone_L6_text
     Value: "Not enough money...\r"
   - Key: Phone_L6_V
-    Value: Call up vending machine for 30 coins?
+    Value: "Call up vending machine for 30 coins?\r"
+  - Key: name_OldMan2
+    Value: "Sage\r"
+  - Key: OldMan2D_1
+    Value: "Welcome, young man.\r"
+  - Key: OldMan2D_2
+    Value: "Gaffer, I need to get upstairs.\r"
+  - Key: OldMan2D_3
+    Value: "At the top you will meet strong enemy...\r"
+  - Key: OldMan2D_4
+    Value: "But I can teach you and you will become stronger.\r"
+  - Key: OldMan2V_Title
+    Value: "Talk with old man...\r"
+  - Key: OldMan2V_1
+    Value: "1. Start training\r"
+  - Key: OldMan2V_2
+    Value: "2. Open passage upstair\r"
+  - Key: OldMan2V_3
+    Value: 3. Keep silent

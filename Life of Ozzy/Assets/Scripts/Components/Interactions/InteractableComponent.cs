@@ -16,12 +16,14 @@ namespace LifeOfOzzy.Components
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag(_tag)) _interactParticle.SetActive(true);
+            if (other.gameObject.CompareTag(_tag)) 
+                _interactParticle.SetActive(true);
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag(_tag)) _interactParticle.SetActive(false);
+            if (other.gameObject.CompareTag(_tag)) 
+                _interactParticle.SetActive(false);
         }
 
         private void OnDisable()
