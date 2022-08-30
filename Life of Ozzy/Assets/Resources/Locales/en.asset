@@ -231,4 +231,10 @@ MonoBehaviour:
   - Key: OldMan2V_2
     Value: "2. Open passage upstair\r"
   - Key: OldMan2V_3
-    Value: 3. Keep silent
+    Value: "3. Keep silent\r"
+  - Key: Exit_level
+    Value: "Move on?\r"
+  - Key: shopN_7
+    Value: "Experience\r"
+  - Key: shopI_7
+    Value: Allows to improve skills.
