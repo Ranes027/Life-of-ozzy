@@ -10392,8 +10392,16 @@ PrefabInstance:
       value: 4.29105
       objectReference: {fileID: 0}
     - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9611473
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
       propertyPath: m_LocalPosition.y
       value: 11.79105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04111432
       objectReference: {fileID: 0}
     - target: {fileID: 6658240847502511093, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
       propertyPath: _speed
@@ -22686,6 +22694,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.70895004
       objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9611473
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.79105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04111432
+      objectReference: {fileID: 0}
     - target: {fileID: 6658240847502511093, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
       propertyPath: _speed
       value: 3
@@ -25282,6 +25302,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1968513797}
     m_Modifications:
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9611473
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.79105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658240847502511092, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04111432
+      objectReference: {fileID: 0}
     - target: {fileID: 6658240848018393746, guid: 43b7fe1cdde46c946882a179e5934f2d, type: 3}
       propertyPath: m_Name
       value: MovingPlatform[Stone]

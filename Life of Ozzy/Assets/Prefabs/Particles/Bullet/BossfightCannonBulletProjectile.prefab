@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5609656100416178148}
   - component: {fileID: 5525025612171877482}
   m_Layer: 0
-  m_Name: CannonBulletProjectile
+  m_Name: BossfightCannonBulletProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _throwSpeed: 0.15
   _invert: 1
-  _verticalDirection: 0
+  _verticalDirection: 1
 --- !u!114 &-9165688535351878958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   _tag: Player
   _layer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4104
   _action:
     m_PersistentCalls:
       m_Calls:
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c37e9e10c9fe354eaea0b6c7c854833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hpDelta: -10
+  _hpDelta: -20
 --- !u!114 &5525025612171877482
 MonoBehaviour:
   m_ObjectHideFlags: 0

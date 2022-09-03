@@ -7,15 +7,21 @@ namespace LifeOfOzzy
     public class BaseProjectile : MonoBehaviour
     {
         [SerializeField] protected float _throwSpeed;
-        [SerializeField] protected bool _invertX;
+        [Header("Direction settings")]
+        [SerializeField] protected bool _invert;
+        [SerializeField] protected bool _verticalDirection;
 
         protected Rigidbody2D Rigidbody;
         protected int Direction;
 
         protected virtual void Start()
         {
-            var modify = _invertX ? -1 : 1;
-            Direction = modify * transform.lossyScale.x > 0 ? 1 : -1;
+            var modify = _invert ? -1 : 1;
+            if (_verticalDirection)
+                Direction = modify * transform.lossyScale.y > 0 ? 1 : -1;
+            else
+                Direction = modify * transform.lossyScale.x > 0 ? 1 : -1;
+
             Rigidbody = GetComponent<Rigidbody2D>();
         }
     }

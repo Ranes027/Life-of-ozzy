@@ -10,11 +10,15 @@ namespace LifeOfOzzy
         {
             base.Start();
         }
-        
+
         private void FixedUpdate()
         {
             var position = Rigidbody.position;
-            position.x += Direction * _throwSpeed;
+            if (_verticalDirection)
+                position.y += Direction * _throwSpeed;
+            else
+                position.x += Direction * _throwSpeed;
+
             Rigidbody.MovePosition(position);
         }
     }
