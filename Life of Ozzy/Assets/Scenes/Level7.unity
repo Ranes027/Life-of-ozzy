@@ -340,10 +340,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72029745}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 67323d6c9ccd6b14a8468e4ef2fafe64, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5fde8e3fdbf3c5e4f9d9c9b2c31f7c93, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -6174,11 +6174,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settings:
-  - _prefab: {fileID: 7407859880569674703, guid: c45cea51bc7c0b64fbd5dbb277739b7e, type: 3}
-    _burstCount: 10
-    _delay: 0.05
-  - _prefab: {fileID: 7407859880569674703, guid: c45cea51bc7c0b64fbd5dbb277739b7e, type: 3}
+  - _prefab: {fileID: 7407859880569674703, guid: dc1731ad6af2b954fb2c602757807a59, type: 3}
     _burstCount: 20
+    _delay: 0.1
+  - _prefab: {fileID: 7407859880569674703, guid: dc1731ad6af2b954fb2c602757807a59, type: 3}
+    _burstCount: 30
     _delay: 0.02
 --- !u!95 &1167782060
 Animator:
@@ -8335,6 +8335,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 72029748}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!61 &1629334989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8597,8 +8609,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731700941}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.230392, y: 0.86612624, z: 0.526919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 63.230408, y: 0.8661499, z: 0.526919}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
