@@ -237,4 +237,10 @@ MonoBehaviour:
   - Key: shopN_7
     Value: "Experience\r"
   - Key: shopI_7
-    Value: Allows to improve skills.
+    Value: "Allows to improve skills.\r"
+  - Key: name_PirateKing
+    Value: "Pirate King\r"
+  - Key: PirateKing_D1
+    Value: "I am the pirate king!!!\r"
+  - Key: PirateKing_D2
+    Value: Impossible...
