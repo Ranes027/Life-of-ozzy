@@ -243,4 +243,16 @@ MonoBehaviour:
   - Key: PirateKing_D1
     Value: "I am the pirate king!!!\r"
   - Key: PirateKing_D2
-    Value: Impossible...
+    Value: "Impossible...\r"
+  - Key: LevelLoader_main
+    Value: "Loading\r"
+  - Key: LevelLoader_dream
+    Value: "Dream.\r"
+  - Key: LevelLoader_T1
+    Value: "\"Walk\"\r"
+  - Key: LevelLoader_T2
+    Value: "\"Business meeting\"\r"
+  - Key: LevelLoader_T3
+    Value: "\"Seaside trip\"\r"
+  - Key: LevelLoader_T4
+    Value: '"Pirate king"'
