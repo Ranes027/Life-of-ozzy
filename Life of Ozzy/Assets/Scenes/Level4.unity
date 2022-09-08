@@ -5050,7 +5050,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.6875
+  orthographic size: 3.703125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5230,9 +5230,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1372718475}
     m_Modifications:
+    - target: {fileID: 3164508849722273061, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _title
+      value: LevelLoader_T3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164508849722273061, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _number
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164508849722273061, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _sceneName
+      value: Level5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164508849722273061, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _allowLevelName
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3164508849722273240, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
       propertyPath: m_Name
-      value: Tesla
+      value: '[Exit]Tesla'
       objectReference: {fileID: 0}
     - target: {fileID: 3164508849722273241, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
       propertyPath: m_RootOrder

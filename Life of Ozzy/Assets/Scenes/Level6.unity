@@ -3864,6 +3864,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: Level7
+  _allowLevelName: 1
+  _number: 4
+  _title: LevelLoader_T4
 --- !u!114 &93480440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15471,7 +15474,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.8125
+  orthographic size: 3.703125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -15513,7 +15516,7 @@ GameObject:
   - component: {fileID: 1738891448}
   - component: {fileID: 1738891449}
   m_Layer: 0
-  m_Name: PirateShip
+  m_Name: '[Exit]PirateShip'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
