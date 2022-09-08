@@ -5302,12 +5302,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3164508849722273243, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3164508848660922279}
+    - target: {fileID: 3164508849722273243, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Show
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164508849722273243, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LifeOfOzzy.Components.ShowOptionComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7638841520146931044, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+--- !u!1 &3164508848660922277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164508849722273240, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+  m_PrefabInstance: {fileID: 3164508848660922276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3164508848660922278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3164508849722273061, guid: 59da76ab2d0960d448b7cd1856235500, type: 3}
+  m_PrefabInstance: {fileID: 3164508848660922276}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3164508848660922277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84cb69725f2d654e9995a5728e48a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3164508848660922279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3164508848660922277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4c61b586208b244b16b2787c620c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    DialogText: Exit_level
+    Options:
+    - Text: OldManV_1
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 3164508848660922278}
+            m_TargetAssemblyTypeName: LifeOfOzzy.Components.ExitLevelComponent, Assembly-CSharp
+            m_MethodName: Exit
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - Text: OldManV_2
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls: []
 --- !u!1001 &5033606373219891522
 PrefabInstance:
   m_ObjectHideFlags: 0

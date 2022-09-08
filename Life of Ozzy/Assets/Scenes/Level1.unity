@@ -3161,6 +3161,7 @@ GameObject:
   - component: {fileID: 424458294}
   - component: {fileID: 424458293}
   - component: {fileID: 424458299}
+  - component: {fileID: 424458300}
   m_Layer: 7
   m_Name: '[Exit]HouseDoor'
   m_TagString: Interactable
@@ -3199,9 +3200,9 @@ MonoBehaviour:
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 424458293}
-        m_TargetAssemblyTypeName: LifeOfOzzy.Components.ExitLevelComponent, Assembly-CSharp
-        m_MethodName: Exit
+      - m_Target: {fileID: 424458300}
+        m_TargetAssemblyTypeName: LifeOfOzzy.Components.ShowOptionComponent, Assembly-CSharp
+        m_MethodName: Show
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3255,6 +3256,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.60650635, y: 1.1561047}
   m_EdgeRadius: 0
+--- !u!114 &424458300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424458292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4c61b586208b244b16b2787c620c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    DialogText: Exit_level
+    Options:
+    - Text: OldManV_1
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 424458293}
+            m_TargetAssemblyTypeName: LifeOfOzzy.Components.ExitLevelComponent, Assembly-CSharp
+            m_MethodName: Exit
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - Text: OldManV_2
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls: []
 --- !u!4 &428701565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8152460466126152396, guid: 6b9fbd84289caaf43968c50bea752675, type: 3}
@@ -4048,7 +4084,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.703125
+  orthographic size: 2.8125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

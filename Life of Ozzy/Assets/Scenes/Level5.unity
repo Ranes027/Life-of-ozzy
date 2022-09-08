@@ -6169,8 +6169,9 @@ GameObject:
   - component: {fileID: 1779247268}
   - component: {fileID: 1779247267}
   - component: {fileID: 1779247266}
+  - component: {fileID: 1779247269}
   m_Layer: 7
-  m_Name: Ship
+  m_Name: '[Exit]Ship'
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6305,9 +6306,9 @@ MonoBehaviour:
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1779247266}
-        m_TargetAssemblyTypeName: LifeOfOzzy.Components.ExitLevelComponent, Assembly-CSharp
-        m_MethodName: Exit
+      - m_Target: {fileID: 1779247269}
+        m_TargetAssemblyTypeName: LifeOfOzzy.Components.ShowOptionComponent, Assembly-CSharp
+        m_MethodName: Show
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6345,6 +6346,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 0.8125}
   m_EdgeRadius: 0
+--- !u!114 &1779247269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779247262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4c61b586208b244b16b2787c620c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    DialogText: Exit_level
+    Options:
+    - Text: OldManV_1
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1779247266}
+            m_TargetAssemblyTypeName: LifeOfOzzy.Components.ExitLevelComponent, Assembly-CSharp
+            m_MethodName: Exit
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - Text: OldManV_2
+      OnSelect:
+        m_PersistentCalls:
+          m_Calls: []
 --- !u!1 &1789104624
 GameObject:
   m_ObjectHideFlags: 0
