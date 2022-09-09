@@ -255,4 +255,6 @@ MonoBehaviour:
   - Key: LevelLoader_T3
     Value: "\"Seaside trip\"\r"
   - Key: LevelLoader_T4
-    Value: '"Pirate king"'
+    Value: "\"Pirate king\"\r"
+  - Key: Cutscene1_T1
+    Value: A long time ago in a city far far away...
