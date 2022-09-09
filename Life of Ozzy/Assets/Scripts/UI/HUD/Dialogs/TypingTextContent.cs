@@ -29,8 +29,9 @@ namespace LifeOfOzzy.UI
         private void Start()
         {
             _sfxSource = AudioUtils.FindSfxSource();
-
             _text.alpha = 0;
+
+            ShowText();
         }
 
         [ContextMenu("Show")]

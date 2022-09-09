@@ -351,6 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7cbc89bcd88a984b8d9d4411fbca922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _startLevelName: Cutscene1
 --- !u!95 &4606835448277726101
 Animator:
   serializedVersion: 4

@@ -5,12 +5,14 @@ namespace LifeOfOzzy.UI
 {
     public class MainMenuWindow : AnimatedWindow
     {
+        [SerializeField] private string _startLevelName;
+
         private Action _closeAction;
 
         public void OnStartGame()
         {
             var loader = FindObjectOfType<LevelLoader>();
-            loader.LoadLevel("Level1");
+            loader.LoadLevel(_startLevelName);
             Close();
         }
 

@@ -6,15 +6,15 @@ namespace LifeOfOzzy.Components
 {
     public class ExitLevelComponent : MonoBehaviour
     {
-        [SerializeField] private string _sceneName;
+        [SerializeField] protected string _sceneName;
         [Header("Level Name")]
-        [SerializeField] private bool _allowLevelName;
-        [SerializeField] private string _number;
-        [SerializeField] private string _title;
+        [SerializeField] protected bool _allowLevelName;
+        [SerializeField] protected string _number;
+        [SerializeField] protected string _title;
 
         public bool AllowLevelName => _allowLevelName;
 
-        public void Exit()
+        public virtual void Exit()
         {
             var session = FindObjectOfType<GameSession>();
             session.Save();
