@@ -5991,7 +5991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84cb69725f2d654e9995a5728e48a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneName: StartScreen
+  _sceneName: Cutscene2
   _allowLevelName: 0
   _number: 
   _title: 
