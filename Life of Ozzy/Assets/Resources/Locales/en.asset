@@ -257,4 +257,8 @@ MonoBehaviour:
   - Key: LevelLoader_T4
     Value: "\"Pirate king\"\r"
   - Key: Cutscene1_T1
-    Value: A long time ago in a city far far away...
+    Value: "A long time ago in a city far far away...\r"
+  - Key: Cutscene2_V1
+    Value: "Go out for a smoke.\r"
+  - Key: Cutscene2_V2
+    Value: Sleep for more minute.
