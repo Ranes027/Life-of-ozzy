@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
 using UnityEditor;
 using LifeOfOzzy.Utils;
-using LifeOfOzzy.UI;
 
 namespace LifeOfOzzy.Components
 {

@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using UnityEngine;
-using UnityEditor;
 using LifeOfOzzy.Utils;
 using Random = UnityEngine.Random;
 
@@ -50,14 +49,14 @@ namespace LifeOfOzzy.Components
 
             var middleAngleDelta = (180 - _sectorRotation - _sectorAngle) / 2;
             var rightBound = GetUnitOnCirlce(middleAngleDelta);
-            Handles.DrawLine(position, position + rightBound);
+            UnityEditor.Handles.DrawLine(position, position + rightBound);
 
             var leftBound = GetUnitOnCirlce(middleAngleDelta + _sectorAngle);
-            Handles.DrawLine(position, position + leftBound);
-            Handles.DrawWireArc(position, Vector3.forward, rightBound, _sectorAngle, 1);
+            UnityEditor.Handles.DrawLine(position, position + leftBound);
+            UnityEditor.Handles.DrawWireArc(position, Vector3.forward, rightBound, _sectorAngle, 1);
 
-            Handles.color = new Color(1f, 1f, 1f, 0.1f);
-            Handles.DrawSolidArc(position, Vector3.forward, rightBound, _sectorAngle, 1);
+            UnityEditor.Handles.color = new Color(1f, 1f, 1f, 0.1f);
+            UnityEditor.Handles.DrawSolidArc(position, Vector3.forward, rightBound, _sectorAngle, 1);
         }
 #endif
 

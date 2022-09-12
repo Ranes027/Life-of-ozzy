@@ -3,8 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEditor;
-using UnityEditor.Animations;
 using LifeOfOzzy.Components;
 using LifeOfOzzy.Model;
 using LifeOfOzzy.Utils;
@@ -26,8 +24,8 @@ namespace LifeOfOzzy
         [SerializeField] private GameObject _flashlight;
 
         [Header("Animator Controller Settings")]
-        [SerializeField] private AnimatorController _armed;
-        [SerializeField] private AnimatorController _disarmed;
+        [SerializeField] private RuntimeAnimatorController _armed;
+        [SerializeField] private RuntimeAnimatorController _disarmed;
 
         [Header("Particle Systems")]
         [SerializeField] private ParticleSystem _healParticles;
