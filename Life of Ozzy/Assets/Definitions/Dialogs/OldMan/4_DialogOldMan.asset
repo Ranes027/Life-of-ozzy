@@ -17,5 +17,5 @@ MonoBehaviour:
     - _valued: OldManD_4
       _name: name_OldMan
       _icon: {fileID: 0}
-      _side: 0
+      _side: 1
     _type: 0

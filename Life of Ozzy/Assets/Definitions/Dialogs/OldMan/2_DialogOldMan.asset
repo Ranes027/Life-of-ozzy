@@ -17,13 +17,13 @@ MonoBehaviour:
     - _valued: OldManD_2_1
       _name: name_OldMan
       _icon: {fileID: 0}
-      _side: 0
+      _side: 1
     - _valued: OldManD_2_2
       _name: name_OldMan
       _icon: {fileID: 0}
-      _side: 0
+      _side: 1
     - _valued: OldManD_2_3
       _name: name_OldMan
       _icon: {fileID: 0}
-      _side: 0
+      _side: 1
     _type: 0

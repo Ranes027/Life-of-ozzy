@@ -201,9 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _inventory:
-      _inventory:
-      - Id: Coin
-        Value: 100
+      _inventory: []
     Hp:
       _value: 100
     Perks:
