@@ -41,7 +41,7 @@ namespace LifeOfOzzy.UI
             _moneyPanel.text = CoinCount.ToString();
             _expValue.text = ExpCount.ToString();
             _healthPotionPanel.text = PotionsCount.ToString();
-            if (FlashlightCount > 0) _flashlight.SetActive(true);
+            if (FlashlightCount > 0) ActivateUI();;
 
             _session.Data.Inventory.OnChanged += OnInventoryChanged;
 
@@ -71,11 +71,16 @@ namespace LifeOfOzzy.UI
 
             if (id == FlashlightId)
             {
-                _flashlight.SetActive(true);
-                _statsManagerMenu.SetActive(true);
-                _expPanel.SetActive(true);
+                ActivateUI();
             }
 
+        }
+
+        private void ActivateUI()
+        {
+            _flashlight.SetActive(true);
+            _statsManagerMenu.SetActive(true);
+            _expPanel.SetActive(true);
         }
 
         public void OnSettings()
