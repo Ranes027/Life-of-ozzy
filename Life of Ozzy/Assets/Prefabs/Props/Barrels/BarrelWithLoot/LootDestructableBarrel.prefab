@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 466772889}
   - component: {fileID: 4563429970264327068}
   - component: {fileID: 7547610287632226868}
+  - component: {fileID: 806562807135552476}
   m_Layer: 6
   m_Name: LootDestructableBarrel
   m_TagString: Enemy
@@ -238,6 +239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _frameRate: 10
+  _onComplete:
+    m_PersistentCalls:
+      m_Calls: []
   _clips:
   - _name: idle
     _sprites:
@@ -566,3 +570,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &806562807135552476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8401206208195079413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ff52434f575e940831036db7d51693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tag: Destroyer
+  _layer:
+    serializedVersion: 2
+    m_Bits: 0
+  _action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8401206208195079416}
+        m_TargetAssemblyTypeName: LifeOfOzzy.Components.DestroyObjectComponent, Assembly-CSharp
+        m_MethodName: DestroyObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

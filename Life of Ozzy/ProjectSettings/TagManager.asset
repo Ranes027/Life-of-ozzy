@@ -11,6 +11,7 @@ TagManager:
   - SimpleDialog
   - PersonalizedDialog
   - MainUICanvas
+  - Destroyer
   layers:
   - Default
   - TransparentFX

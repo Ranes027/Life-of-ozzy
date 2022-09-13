@@ -458,7 +458,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!1 &30232927
 GameObject:
@@ -3037,7 +3038,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!1 &330282204
 GameObject:
@@ -3648,7 +3650,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!1001 &377641173
 PrefabInstance:
@@ -5630,7 +5633,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!1 &605338063
 GameObject:
@@ -8310,7 +8314,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.8125
+  orthographic size: 3.7109375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8334,7 +8338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850689614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0000002, y: -0.43998998, z: -10}
+  m_LocalPosition: {x: -0.4027748, y: -0.43998998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22088,7 +22092,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!1 &1660646990
 GameObject:
@@ -31614,7 +31619,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevitateSilverCoin
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8840845784212911141, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b720ba4f0848e7c40b1c8bab7369be03, type: 3}
 --- !u!4 &1982067048 stripped
 Transform:
