@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using LifeOfOzzy.Utils;
 
 namespace LifeOfOzzy.UI
 {
@@ -18,9 +19,7 @@ namespace LifeOfOzzy.UI
 
         public void OnShowSettings()
         {            
-            var window = Resources.Load<GameObject>("UI/SettingsWindow");
-            var canvas = FindObjectOfType<Canvas>();
-            Instantiate(window, canvas.transform);       
+            WindowUtils.CreateWindow("UI/SettingsWindow");       
         }
 
         public void OnExitGame()
