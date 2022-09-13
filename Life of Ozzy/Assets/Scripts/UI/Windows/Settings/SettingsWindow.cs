@@ -23,6 +23,11 @@ namespace LifeOfOzzy.UI
         {
             WindowUtils.CreateWindow("UI/LanguageWindow");
         }
+
+        public void OnControls()
+        {
+            WindowUtils.CreateWindow("UI/ControlsWindow");
+        }
     }
 
 }

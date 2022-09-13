@@ -259,6 +259,22 @@ MonoBehaviour:
   - Key: Cutscene1_T1
     Value: "A long time ago in a city far far away...\r"
   - Key: Cutscene2_V1
-    Value: "Go out for a smoke.\r"
+    Value: "1. Go out for a smoke.\r"
   - Key: Cutscene2_V2
-    Value: Sleep for more minute.
+    Value: "2. Sleep for more minute.\r"
+  - Key: Cutscene2_T1
+    Value: "You're awake...\r"
+  - Key: controls_header
+    Value: "Controls\r"
+  - Key: controls_movement
+    Value: "Character movement\r"
+  - Key: controls_interact
+    Value: "Interact\r"
+  - Key: controls_attack
+    Value: "Attack\r"
+  - Key: controls_nextItem
+    Value: "Next item\r"
+  - Key: controls_usePotion
+    Value: "Use potion\r"
+  - Key: controls_useItem
+    Value: Use item
