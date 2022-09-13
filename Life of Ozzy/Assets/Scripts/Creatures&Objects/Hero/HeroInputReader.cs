@@ -9,7 +9,7 @@ namespace LifeOfOzzy
     public class HeroInputReader : MonoBehaviour
     {
         [SerializeField] private Hero _hero;
-        
+
         private GameSession _session;
 
         public void OnMovement(InputAction.CallbackContext context)
@@ -65,6 +65,7 @@ namespace LifeOfOzzy
             {
                 var menu = GameObject.Find("InGameMenu(Clone)");
                 var settingsMenu = GameObject.Find("SettingsWindow(Clone)");
+                var controlsMenu = GameObject.Find("ControlsWindow(Clone)");
                 var languageMenu = GameObject.Find("LanguageWindow(Clone)");
                 if (menu == null)
                 {
@@ -77,6 +78,11 @@ namespace LifeOfOzzy
                     {
                         var closeSettingsMenu = settingsMenu.GetComponent<AnimatedWindow>();
                         closeSettingsMenu.Close();
+                        if (controlsMenu != null)
+                        {
+                            var closeControlsMenu = controlsMenu.GetComponent<AnimatedWindow>();
+                            closeControlsMenu.Close();
+                        }
                         if (languageMenu != null)
                         {
                             var closeLanguageMenu = languageMenu.GetComponent<AnimatedWindow>();
@@ -86,7 +92,7 @@ namespace LifeOfOzzy
                     closeMenu.Close();
                 }
             }
-        }        
+        }
 
         public void OnUseFlashlight(InputAction.CallbackContext context)
         {

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2761
+  controlID: 4450
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2762
+  controlID: 4451
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2900
+  controlID: 4452
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -841,9 +841,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: eae10000
+      m_SelectedIDs: 5ebb0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cdaffff4ee7ffff0afbffff1ce10000
+      m_ExpandedIDs: e256ffffca58ffffde68ffffbc6affff2674ffff0676ffff5277ffffc884ffff8a86ffff0e90ffffba99ffffe09effff1cdaffff4ee7ffff0afbffff1ce10000d654010074550100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2763
+  controlID: 4308
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -920,7 +920,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1097,21 +1097,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio/other
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Audio/other
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Desktop\Unity\Git\Life-of-ozzy\Life of Ozzy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc7f0000
-    m_LastClickedID: 32716
+    m_SelectedIDs: e67f0000
+    m_LastClickedID: 32742
     m_ExpandedIDs: 00000000707f0000727f0000747f0000767f0000787f00007a7f00007c7f00007e7f0000807f0000827f0000847f0000867f0000887f00008a7f00008c7f00008e7f0000907f0000927f0000947f0000967f0000987f00009a7f00009c7f00009e7f0000a07f0000a27f0000a47f0000a67f0000a87f0000aa7f0000ac7f0000ae7f0000b07f0000b27f0000b47f0000b67f0000b87f0000ba7f0000bc7f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1165,9 +1165,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: eae10000
-    m_LastClickedInstanceID: 57834
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 5ebb0000
+    m_LastClickedInstanceID: 47966
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000074600000347900005ea10000c8e90000748200006cfd0000be780000c0780000649c000074a00000f8140100
     m_RenameOverlay:
       m_UserAcceptedRename: 0

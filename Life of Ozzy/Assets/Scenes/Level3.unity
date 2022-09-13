@@ -4972,13 +4972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _inventory:
-      _inventory:
-      - Id: Flashlight
-        Value: 1
-      - Id: Shuriken
-        Value: 10
-      - Id: Sword
-        Value: 10
+      _inventory: []
     Hp:
       _value: 100
     Perks:
