@@ -47,7 +47,10 @@ namespace LifeOfOzzy.UI
 
             var selected = _session.ShopModel.InterfaceSelectedItem.Value;
 
-            _buyButton.interactable = _session.ShopModel.CanBuy(selected);
+            if (_session.ShopModel.CanBuy(selected) & _session.ShopModel.GetCurrentAmount(selected) > 0)
+                _buyButton.interactable = true;
+            else
+                _buyButton.interactable = false;
 
             var def = DefinitionsFacade.I.Shop.Get(selected);
             _price.SetData(def.Price);
