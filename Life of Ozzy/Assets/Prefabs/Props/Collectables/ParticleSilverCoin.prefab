@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5719053631125471125}
   - component: {fileID: 8494056593644203817}
   - component: {fileID: 5236181803957642041}
-  - component: {fileID: 2354667028682714378}
   - component: {fileID: 6584828606372444033}
+  - component: {fileID: 4347076373741183017}
   m_Layer: 0
   m_Name: ParticleSilverCoin
   m_TagString: Untagged
@@ -191,7 +191,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &5236181803957642041
 MonoBehaviour:
@@ -212,11 +212,10 @@ MonoBehaviour:
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2354667028682714378}
-        m_TargetAssemblyTypeName: LifeOfOzzy.Components.AddInInventoryComponent,
-          Assembly-CSharp
-        m_MethodName: Add
-        m_Mode: 0
+      - m_Target: {fileID: 4347076373741183017}
+        m_TargetAssemblyTypeName: LifeOfOzzy.Components.CollectorComponent, Assembly-CSharp
+        m_MethodName: DropInInventory
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -261,20 +260,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2354667028682714378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903661502315412212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e402beed4e8d8af45be257d680c012ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _id: Coin
-  _count: 1
 --- !u!114 &6584828606372444033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,3 +275,18 @@ MonoBehaviour:
   _sounds:
   - _id: coin
     _clip: {fileID: 8300000, guid: cff264e6d7e9eaa429b46e1656d1ba97, type: 3}
+--- !u!114 &4347076373741183017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903661502315412212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b761396690028345ab018bb166c2043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _items:
+  - Id: Coin
+    Value: 1
