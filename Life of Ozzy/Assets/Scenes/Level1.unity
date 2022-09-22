@@ -9990,9 +9990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _inventory:
-      _inventory:
-      - Id: Pearl
-        Value: 10
+      _inventory: []
     Hp:
       _value: 100
     Perks:
