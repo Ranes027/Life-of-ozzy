@@ -16,6 +16,5 @@
 |  |  |
 |---------|---------|
 | ![ex1](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/6af110d8-9e6d-46f2-9c28-e98f1ab63e23) | ![ex2](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/f5eca8fd-2abe-4de1-8d80-4b1516352760) |
-| ![ex3](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/7d59050c-c879-45f6-8b37-deaf343e1b82) | ![ex4](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/32cbd509-7412-47f8-a970-becd2473c256)
- |
+| ![ex3](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/7d59050c-c879-45f6-8b37-deaf343e1b82) | ![ex4](https://github.com/Ranes027/Life-of-ozzy/assets/95719172/32cbd509-7412-47f8-a970-becd2473c256)|
  
