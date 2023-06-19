@@ -15,7 +15,7 @@ namespace LifeOfOzzy.UI
         [SerializeField] private Image _icon;
 
         public TextMeshProUGUI Text => _text;
-         public TextMeshProUGUI Name => _name;
+        public TextMeshProUGUI Name => _name;
 
         public void TrySetIcon(Sprite icon)
         {
@@ -24,7 +24,7 @@ namespace LifeOfOzzy.UI
 
         public void TrySetName(string name)
         {
-            if(_name != null) _name.text = name;
+            if (_name != null) _name.text = name;
         }
     }
 
