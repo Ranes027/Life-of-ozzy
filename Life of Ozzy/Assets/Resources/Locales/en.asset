@@ -29,7 +29,7 @@ MonoBehaviour:
   - Key: settings_sfx
     Value: "SFX\r"
   - Key: settings_language
-    Value: "LANGUAGES\r"
+    Value: "Languages\r"
   - Key: language_header
     Value: "Change Language\r"
   - Key: yariGD_1
@@ -277,4 +277,6 @@ MonoBehaviour:
   - Key: controls_usePotion
     Value: "Use potion\r"
   - Key: controls_useItem
-    Value: Use item
+    Value: "Use item\r"
+  - Key: controls_useFlashlight
+    Value: Use flashlight
